@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="RegistratiomForm.css">
+<body>
+<div class="container">
+    <form>  
+         
+        <h1 id='header'>Sign Up Page</h1>  
+        
+        <label> <b>First Name</b> </label>   
+      <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+      <label><b>Middle Name</b></label>   
+      <input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+      <label><b>Last Name</b> </label>    
+      <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+      <div>  
+      
+      <br>  
+      <label> <b>Gender</b> </label>  
+      <input type="radio" value="Male" name="gender" checked > Male   
+      <input type="radio" value="Female" name="gender"> Female   
+      <input type="radio" value="Other" name="gender"> Other  
+        
+      </div>  
+      <br>
+      <label>   
+      <b>Phone</b> 
+      </label>  
+      
+      <input type="text" name="phone" placeholder="phone no." value="+880" size="10">   
+      <b>Address</b>
+      <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+      </textarea>  
+       <label for="email"><b>Email</b></label>  
+       <input type="text" placeholder="Enter Email" name="email" required>  
+        
+          <label for="psw"><b>Password</b></label>  
+          <input type="password" placeholder="Enter Password" name="psw" required>  
+        
+          <label for="psw-repeat"><b>Re-type Password</b></label>  
+          <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Create account</button>  
+          <p>Already have an account?</p> 
+          <button type="submit" class="registerbtn">Login</button> 
+      </form>  
+</div>
+</body>
+</html>
